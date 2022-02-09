@@ -1,0 +1,5 @@
+[user]
+	name = andoobomber
+	email = andoobomber@gmail.com
+[alias]
+        branch-d = "!f () { git branch --merged | egrep -v '\\*|master|develop' | xargs git branch -d; }; f"
